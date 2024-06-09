@@ -1,0 +1,16 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Organ Studies'
+disqusShortname = "OS"
+enableGitInfo = true
+
+[params]
+BookTheme = 'light'
+BookToC = true
+BookLogo = 'favicon.png'
+BookSection = 'docs'
+BookRepo = 'https://github.com/alex-shpak/hugo-book'
+BookCommitPath = 'commit'
+BookDateFormat = 'Jan 2, 2006'
+BookSearch = true
+BookComments = true
