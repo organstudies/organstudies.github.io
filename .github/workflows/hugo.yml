@@ -34,3 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
