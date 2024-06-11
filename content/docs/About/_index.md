@@ -31,12 +31,7 @@ title: "About"
 📮 qdxbos@proton.me
 
 
-## RSS
-
-<p style="text-align:center; margin-top:20px;">
-    <a href="{{ "index.xml" | relURL }}" style="color: blue; text-decoration: none;">订阅 RSS</a>
-</p>
-
+## [RSS](https://organstudies.github.io/index.xml)。
 
 
 
