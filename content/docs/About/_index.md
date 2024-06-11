@@ -33,7 +33,8 @@ title: "About"
 
 ## RSS
 
-<a href="{{ "index.xml" | relURL }}"></a>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ "index.xml" | relURL }}">
+
 
 
 ## Friends
