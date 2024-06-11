@@ -31,15 +31,15 @@ title: "About"
 📮 qdxbos@proton.me
 
 
-## [RSS](https://organstudies.github.io/index.xml)。
+## [RSS](https://organstudies.github.io/index.xml)
+
+请直接点击。
 
 
 
 ## Friends
 
-
-
-
+你来到了友情链接的荒漠。
 
 
 
