@@ -33,6 +33,9 @@ title: "About"
 
 ## RSS
 
+<a href="{{ "index.xml" | relURL }}"></a>
+
+
 ## Friends
 
 
