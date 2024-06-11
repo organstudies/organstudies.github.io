@@ -13,7 +13,7 @@ BookRepo = 'https://github.com/alex-shpak/hugo-book'
 BookCommitPath = 'commit'
 BookDateFormat = 'Jan 2, 2006'
 BookSearch = true
-BookComments = true
+BookComments = false
 
 [outputs]
   home = ["HTML", "RSS"]
