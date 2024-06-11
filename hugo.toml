@@ -5,7 +5,7 @@ disqusShortname = "OS"
 enableGitInfo = true
 
 [params]
-BookTheme = 'light'
+BookTheme = 'auto'
 BookToC = true
 BookLogo = 'favicon.png'
 BookSection = 'docs'
