@@ -14,3 +14,6 @@ BookCommitPath = 'commit'
 BookDateFormat = 'Jan 2, 2006'
 BookSearch = true
 BookComments = true
+
+[outputs]
+  home = ["HTML", "RSS"]
