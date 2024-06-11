@@ -1,8 +1,7 @@
 ---
 title: Intro
 type: docs
-tags:
-  -musique
+
 ---
 
 # schizophrenic out for a stroll
