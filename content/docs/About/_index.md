@@ -33,7 +33,7 @@ title: "About"
 
 ## RSS
 
-[[<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ "index.xml" | relURL }}">](https://changxiawushi.github.io/index](https://organstudies.github.io/index.xml)
+https://organstudies.github.io/index.xml
 
 
 
