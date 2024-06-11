@@ -7,15 +7,18 @@ type: docs
 # schizophrenic out for a stroll
 
 {{< columns >}}
-## Still one place to go
+## how your bad dreams possess and endow me
 
-Pit Inn | アケタの店 | 
+阿廖沙对自己说：“既然要舍掉‘所有的’，我就不能只舍掉两卢布；既然要‘跟从我’，我就不能只去做晨祷。”
 
 <--->
 
-## Snuff out
+## Question: If you could see a documentary on a philosopher, on Heidegger, Kant, or Hegel, what would you like to see in it?
 
-Hi-Posi | 水晶の舟 |
+Jacques Derrida’s answer: For them to talk about their sex life.
+. . . You want a quick answer?
+Their sex life.
+
 
 {{< /columns >}}
 
