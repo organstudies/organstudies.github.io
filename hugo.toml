@@ -15,10 +15,6 @@ BookDateFormat = 'Jan 2, 2006'
 BookSearch = true
 BookComments = false
 
-[[menu.main]]
-name = "Que sçay-je?"
-url = "/que/"
-weight = 30
 
 [outputs]
   home = ["HTML", "RSS"]
