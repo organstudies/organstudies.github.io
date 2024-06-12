@@ -1,5 +1,5 @@
 ---
-weight: 10
+weight: 30
 ---
 
 {{<card>}}则嗑然而笑。{{</card>}}
