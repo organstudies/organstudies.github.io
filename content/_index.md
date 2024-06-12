@@ -41,7 +41,7 @@ Their sex life.
 
 ## 在玩
 
-<span class="shady">你来到了游戏的荒原。</span>
+<span class="shady">你来到了游戏的荒漠。</span>
 
 
 ##
