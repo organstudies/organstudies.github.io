@@ -22,3 +22,7 @@ BookComments = false
 comments:
     enabled: true
     provider: utterances
+utterances:
+    repo: irithys/blog-comment
+    issueTerm: pathname
+    label: utterances
