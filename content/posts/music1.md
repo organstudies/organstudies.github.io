@@ -3,6 +3,8 @@ title: "ミミフィード1"
 date: 2024-06-09T23:48:17+09:00
 tags:
   musique
+categories:
+  fed and frightened
 # bookComments: false
 # bookSearchExclude: false
 ---
