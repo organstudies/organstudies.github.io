@@ -1,8 +1,8 @@
 +++
 title = "『Dark Deleuze』 Ctrl+V"
 date = "2024-06-12T14:17:44+09:00"
-tags:
-  -excerpt
+tags = ["excerpt"]
+
 # bookComments: false
 # bookSearchExclude: false
 +++
