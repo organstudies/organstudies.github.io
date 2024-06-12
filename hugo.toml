@@ -18,3 +18,7 @@ BookComments = false
 
 [outputs]
   home = ["HTML", "RSS"]
+
+comments:
+    enabled: true
+    provider: utterances
