@@ -36,7 +36,7 @@ aber diesmal werde ich geschrieben werden. ich bin der eindruck, der sich verwan
 
 <--->
 
-##   ![示例图片](/images/stars.jpg)
+##   
 
 
 
