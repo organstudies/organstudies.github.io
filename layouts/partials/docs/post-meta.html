@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ .Title }}</title>
-  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
-  {{ partial "head.html" . }}
-  <style>
-    body, html {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      margin: 0;
-    }
-    main {
-      flex: 1;
-    }
-    footer {
-      margin-top: auto;
-    }
-  </style>
-</head>
-<body>
-  <main>
-    <article>
-      <header>
-        <h1>{{ .Title }}</h1>
-      </header>
-      <section>
+
         {{ with .Date }}
           <h5>{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</h5>
         {{ end }}
@@ -69,4 +41,4 @@
     </script>
   </footer>
 </body>
-</html>
+
