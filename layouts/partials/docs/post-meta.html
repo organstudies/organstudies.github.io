@@ -26,6 +26,16 @@
   本文总计 {{ div .WordCount 1000.0 | lang.FormatNumber 2}}k 字, 阅读约需要 {{ div .WordCount 400}} 分钟
 {{ end }}
 
+
+<head>
+  <!-- ... -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
+  <!-- ... -->
+</head>
+<body>
 <div id="waline"></div>
   <script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
@@ -35,5 +45,5 @@
       serverURL: 'https://walinecomment-seven.vercel.app/',
     });
   </script>
-
+</body>
 
