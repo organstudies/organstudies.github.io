@@ -17,6 +17,7 @@ BookSearch = true
 BookComments = false
 comments = true
   walineServerURL = "https://walinecomment-seven.vercel.app/"
+  weight = 100
 
 [outputs]
   home = ["HTML", "RSS"]
