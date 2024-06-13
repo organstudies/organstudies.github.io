@@ -24,6 +24,6 @@ enabled = true
 provider = "utterances"
 
 [utterances]
-repo = "irithys/blog-comment"
+repo = "organstudies/utterances"
 issueTerm = "pathname"
 label = "utterances"
