@@ -21,9 +21,6 @@ BookComments = false
 
 [comments]
 enabled = true
-provider = "utterances"
+provider = "waline"
 
-[utterances]
-repo = "organstudies/utterances"
-issueTerm = "pathname"
-label = "utterances"
+
