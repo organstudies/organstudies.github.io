@@ -1,49 +1,72 @@
-{{ with .Date }}
-  <h5>{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</h5>
-{{ end }}
-
-{{ range $taxonomy, $_ := .Site.Taxonomies }}
-  {{ with $terms := $.GetTerms $taxonomy }}
-  <div>
-    {{ range $n, $term := $terms }}{{ if $n }}, {{ end }}
-      <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
-    {{- end }}
-  </div>
-  {{ end }}
-{{ end }}
-
-{{ if .Params.image }}
-<p>
-  {{ with .Resources.GetMatch .Params.image }}
-    <img src={{ .RelPermalink }} />
-  {{ else }}
-    <img src={{ .Params.image | relURL }} />
-  {{ end }}
-</p>
-{{ end }}
-
-{{ if eq .Type "post"}}
-  本文总计 {{ div .WordCount 1000.0 | lang.FormatNumber 2}}k 字, 阅读约需要 {{ div .WordCount 400}} 分钟
-{{ end }}
-
-
-<footer>
-  <!-- ... -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
-  />
-  <!-- ... -->
-</footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css">
+  {{ partial "head.html" . }}
+  <style>
+    body, html {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+    main {
+      flex: 1;
+    }
+    footer {
+      margin-top: auto;
+    }
+  </style>
+</head>
 <body>
-<div id="waline"></div>
-  <script type="module">
-    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+  <main>
+    <article>
+      <header>
+        <h1>{{ .Title }}</h1>
+      </header>
+      <section>
+        {{ with .Date }}
+          <h5>{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</h5>
+        {{ end }}
 
-    init({
-      el: '#waline',
-      serverURL: 'https://walinecomment-seven.vercel.app/',
-    });
-  </script>
+        {{ range $taxonomy, $_ := .Site.Taxonomies }}
+          {{ with $terms := $.GetTerms $taxonomy }}
+          <div>
+            {{ range $n, $term := $terms }}{{ if $n }}, {{ end }}
+              <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
+            {{- end }}
+          </div>
+          {{ end }}
+        {{ end }}
+
+        {{ if .Params.image }}
+        <p>
+          {{ with .Resources.GetMatch .Params.image }}
+            <img src="{{ .RelPermalink }}" />
+          {{ else }}
+            <img src="{{ .Params.image | relURL }}" />
+          {{ end }}
+        </p>
+        {{ end }}
+
+        {{ if eq .Type "post"}}
+          本文总计 {{ div .WordCount 1000.0 | lang.FormatNumber 2}}k 字, 阅读约需要 {{ div .WordCount 400}} 分钟
+        {{ end }}
+      </section>
+    </article>
+  </main>
+  <footer>
+    <div id="waline"></div>
+    <script type="module">
+      import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+  
+      init({
+        el: '#waline',
+        serverURL: '{{ .Site.Params.walineServerURL }}',
+      });
+    </script>
+  </footer>
 </body>
-
+</html>
