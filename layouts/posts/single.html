@@ -6,11 +6,12 @@
   {{ partial "docs/post-meta" . }}
   {{- .Content -}}
 </article>
+
+<!-- 插入评论部分 -->
+{{ partial "docs/comments" . }}
+
 {{ end }}
 
 {{ define "toc" }}
   {{ partial "docs/toc" . }}
-{{ end }}
-
-{{ partial "docs/comments" . }}
 {{ end }}
