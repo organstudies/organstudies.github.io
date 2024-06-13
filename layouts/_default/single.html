@@ -1,19 +1,7 @@
 {{ define "dummy" }}{{ end }}
 
 {{ if .Params.comments.enabled }}
-  <div id="utterances">
-    <script src="https://utteranc.es/client.js"
-            repo="{{ .Site.Params.utterances.repo }}"
-            issue-term="{{ .Site.Params.utterances.issueTerm }}"
-            label="{{ .Site.Params.utterances.label }}"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-    </script>
-  </div>
-{{ end }}
-
-<footer>
+ <footer>
   <!-- ... -->
   <link
     rel="stylesheet"
@@ -32,3 +20,7 @@
     });
   </script>
 </body>
+
+{{ end }}
+
+
