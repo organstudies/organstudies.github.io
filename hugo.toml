@@ -20,8 +20,9 @@ BookComments = false
 [outputs]
   home = ["HTML", "RSS"]
 
-[comments]
-enabled = true
-provider = "waline"
+[params]
+  comments = true
+  walineServerURL = "https://walinecomment-seven.vercel.app/"
+
 
 
