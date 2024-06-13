@@ -1,44 +1,48 @@
+{{ with .Date }}
+  <h5>{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</h5>
+{{ end }}
 
-        {{ with .Date }}
-          <h5>{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</h5>
-        {{ end }}
+{{ range $taxonomy, $_ := .Site.Taxonomies }}
+  {{ with $terms := $.GetTerms $taxonomy }}
+  <div>
+    {{ range $n, $term := $terms }}{{ if $n }}, {{ end }}
+      <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
+    {{- end }}
+  </div>
+  {{ end }}
+{{ end }}
 
-        {{ range $taxonomy, $_ := .Site.Taxonomies }}
-          {{ with $terms := $.GetTerms $taxonomy }}
-          <div>
-            {{ range $n, $term := $terms }}{{ if $n }}, {{ end }}
-              <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
-            {{- end }}
-          </div>
-          {{ end }}
-        {{ end }}
+{{ if .Params.image }}
+<p>
+  {{ with .Resources.GetMatch .Params.image }}
+    <img src={{ .RelPermalink }} />
+  {{ else }}
+    <img src={{ .Params.image | relURL }} />
+  {{ end }}
+</p>
+{{ end }}
 
-        {{ if .Params.image }}
-        <p>
-          {{ with .Resources.GetMatch .Params.image }}
-            <img src="{{ .RelPermalink }}" />
-          {{ else }}
-            <img src="{{ .Params.image | relURL }}" />
-          {{ end }}
-        </p>
-        {{ end }}
+{{ if eq .Type "post"}}
+  本文总计 {{ div .WordCount 1000.0 | lang.FormatNumber 2}}k 字, 阅读约需要 {{ div .WordCount 400}} 分钟
+{{ end }}
 
-        {{ if eq .Type "post"}}
-          本文总计 {{ div .WordCount 1000.0 | lang.FormatNumber 2}}k 字, 阅读约需要 {{ div .WordCount 400}} 分钟
-        {{ end }}
-      </section>
-    </article>
-  </main>
-  <footer>
-    <div id="waline"></div>
-    <script type="module">
-      import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
-  
-      init({
-        el: '#waline',
-        serverURL: '{{ .Site.Params.walineServerURL }}',
-      });
-    </script>
-  </footer>
+
+<footer>
+  <!-- ... -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v3/dist/waline.css"
+  />
+  <!-- ... -->
+</footer>
+<body>
+<div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://walinecomment-seven.vercel.app/',
+    });
+  </script>
 </body>
-
