@@ -15,14 +15,14 @@ BookCommitPath = 'commit'
 BookDateFormat = 'Jan 2, 2006'
 BookSearch = true
 BookComments = false
-
+comments = true
+  walineServerURL = "https://walinecomment-seven.vercel.app/"
 
 [outputs]
   home = ["HTML", "RSS"]
 
-[params]
-  comments = true
-  walineServerURL = "https://walinecomment-seven.vercel.app/"
+
+  
 
 
 
