@@ -17,6 +17,11 @@
   {{ template "_internal/pagination.html" . }}
 {{ end }}
 
+{{ partial "docs/heatmap" . }}
+
+{{ end }}
+
+
 {{ define "toc" }}
   {{ partial "docs/taxonomy" . }}
 {{ end }}
