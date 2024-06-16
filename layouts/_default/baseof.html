@@ -22,7 +22,7 @@
 
 
       {{ partial "docs/inject/content-before" . }}
-      {{ if eq .Type "About" }}
+      {{ if eq .Title "About" }}
         <div class="heatmap-container">
           {{ partial "docs/heatmap" . }}
         </div>
