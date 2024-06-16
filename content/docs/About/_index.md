@@ -52,7 +52,7 @@ title: "About"
 <br>
 
 
-{{< shake effect="shake-constant" >}}*请和我交朋友吧^^* 右下角的*Chat With 小步*组件和邮箱都可以联系到我。{{< /shake >}}
+{{< spoiler >}}*请和我交朋友吧^^* 右下角的*Chat With 小步*组件和邮箱都可以联系到我。{{< /spoiler >}}
 <br>
 <br>
 
