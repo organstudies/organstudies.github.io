@@ -3,6 +3,7 @@
 <head>
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
+  <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
   <script src="{{ "js/custom.js" | relURL }}"></script>
 </head>
 <body dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
@@ -22,8 +23,12 @@
 
       {{ partial "docs/inject/content-before" . }}
       
-      <!-- 仅在主页包含热力图 -->
-      {{ partial "docs/heatmap" . }}
+      <!-- 仅在主页包含热力图，添加 CSS 类以增加间距 -->
+      {{ if .IsHome }}
+        <div class="heatmap-container">
+          {{ partial "docs/heatmap" . }}
+        </div>
+      {{ end }}
       
       {{ template "main" . }} <!-- 页面内容 -->
       {{ partial "docs/inject/content-after" . }}
