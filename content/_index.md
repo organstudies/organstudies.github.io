@@ -69,3 +69,11 @@ aber diesmal werde ich geschrieben werden. ich bin der eindruck, der sich verwan
 {{< card >}}
 阿廖沙对自己说：“既然要舍掉‘所有的’，我就不能只舍掉两卢布；既然要‘跟从我’，我就不能只去做晨祷。”
 {{< /card >}}
+
+
+{{$scratch := newScratch}}
+{{ range (where .Site.Pages "Kind" "page" )}}
+    {{$scratch.Add "total" .WordCount}}
+{{ end }}
+
+博文数量： {{ len (where .Site.RegularPages "Section" "posts") }} 篇 | 累计字数： {{div ($scratch.Get "total") 10000.0 | lang.FormatNumber 1 }} 万字
