@@ -77,11 +77,17 @@
     function getHeatmapOptions(isDarkMode) {
         return {
             title: {
-                show: true,
-                top: 0,
-                left: 'center',
-                text: 'The House That 小步 Built',
-            },
+    show: true,
+    top: 0,
+    left: 'center',
+    text: 'The House That 小步 Built',
+    textStyle: {
+        color: isDarkMode ? '#FFF' : '#333', 
+        textShadowColor: '#aaa',  // 标题文本阴影颜色
+        textShadowBlur: 5,  // 标题文本阴影模糊程度
+    },
+},
+
             legend: {
                 show: false,
             },
@@ -106,7 +112,7 @@
                 cellSize: ['auto', 'auto'],
                 range: getDateRange(getMonthCount()),
                 itemStyle: {
-                    color: isDarkMode ? '#b1b1b1' : '#fff',
+                    color: isDarkMode ? '#333' : '#fff',
                     borderWidth: 0.5,
                     borderColor: isDarkMode ? '#555' : '#eee',
                 },
