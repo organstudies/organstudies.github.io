@@ -76,4 +76,4 @@ aber diesmal werde ich geschrieben werden. ich bin der eindruck, der sich verwan
     {{$scratch.Add "total" .WordCount}}
 {{ end }}
 
-博文数量： {{ len (where .Site.RegularPages "Section" "posts") }} 篇 | 累计字数： {{div ($scratch.Get "total") 10000.0 | lang.FormatNumber 1 }} 万字
+
