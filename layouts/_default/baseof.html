@@ -96,8 +96,6 @@
   {{ partial "docs/toc" . }}
 {{ end }}
 
-{{ $scratch := newScratch }}
-{{ range (where .Site.Pages "Kind" "page" ) }}
-    {{ $scratch.Add "total" .WordCount }}
+
 {{ end }}
 
