@@ -20,7 +20,13 @@
         {{ template "header" . }} <!-- Mobile layout header -->
       </header>
 
+
       {{ partial "docs/inject/content-before" . }}
+      {{ if .IsHome }}
+        <div class="heatmap-container">
+          {{ partial "docs/heatmap" . }}
+        </div>
+      {{ end }}
       {{ template "main" . }} <!-- Page Content -->
       {{ partial "docs/inject/content-after" . }}
 
