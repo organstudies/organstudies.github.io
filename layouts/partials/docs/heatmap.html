@@ -1,3 +1,4 @@
+<!-- layouts/partials/docs/heatmap.html -->
 <div 
     id="heatmap" 
     style="
@@ -31,8 +32,8 @@
             startDate,
             endDate
         ]);
-        return dateRange
-    };
+        return dateRange;
+    }
 
     // get number of months by window size
     function getMonthCount(){
@@ -47,12 +48,11 @@
     }
 
     var postsByDate = new Map();
-    {{ range ((where .Site.RegularPages "Type" "posts"))  }}
-
-        var date = {{ .Date.Format "2006-01-02" }};
+    {{ range ((where .Site.RegularPages "Type" "posts")) }}
+        var date = "{{ .Date.Format "2006-01-02" }}";
         var postObj = new Map();
-        postObj.set("title", {{ .Title }});
-        postObj.set("link", {{ .RelPermalink }});
+        postObj.set("title", "{{ .Title }}");
+        postObj.set("link", "{{ .RelPermalink }}");
         var wordCount = {{ .WordCount }};
 
         var data = postsByDate.get(date);
@@ -74,77 +74,88 @@
         heatmapData.push([date, data.get("totalWordCount")]);
     }
 
-    option = {
-    title: {
-        show: true,
-        top: 0,
-        left: 'center',
-        text: '写了',
-    },
-    legend: {
-        show: false,
-    },
-    visualMap: {
-        show: false,
-        min: 0,
-        max: 10000,
-        type: 'piecewise',
-        showLable: false,
-        orient: 'horizontal',
-        left: 'center',
-        top: 0,
-        itemGap: 10,
-        inRange: {
-            color: ['#c4e8ff', '#47b4fc', '#0269ad'],
-        },
-    },
-    calendar: {
-        top: 50,
-        left: 30,
-        right: 30,
-        cellSize: ['auto', 'auto'],
-        range: getDateRange(getMonthCount()),
-        itemStyle: {
-            color: '#fff',
-            borderWidth: 0.5,
-            borderColor: '#eee',
-        },
-        yearLabel: { 
-            show: false,
-        },
-        dayLabel: {
-            align: 'center',
-            nameMap: 'ZH',
-        },
-        monthLabel: {
-            nameMap: 'EN',
-        },
-        splitLine: {
-            show: false,
-        },
-    },
-    tooltip: {
-        hideDelay: 1000,
-        enterable: true,
-        formatter: function(params) {
-            const date = params.data[0];
-            const posts = postsByDate.get(date).get("posts");
-            var content = `${date}`;
-            for (const [i, post] of posts.entries()) {
-                content += "<br>";
-                var link = post.get("link");
-                var title = post.get("title");
-                content += `<a href="${link}" target="_blank">${title}</a>`
+    function getHeatmapOptions(isDarkMode) {
+        return {
+            title: {
+                show: true,
+                top: 0,
+                left: 'center',
+                text: '写了',
+            },
+            legend: {
+                show: false,
+            },
+            visualMap: {
+                show: false,
+                min: 0,
+                max: 10000,
+                type: 'piecewise',
+                showLable: false,
+                orient: 'horizontal',
+                left: 'center',
+                top: 0,
+                itemGap: 10,
+                inRange: {
+                    color: isDarkMode ? ['#333', '#555', '#777'] : ['#c4e8ff', '#47b4fc', '#0269ad'],
+                },
+            },
+            calendar: {
+                top: 50,
+                left: 30,
+                right: 30,
+                cellSize: ['auto', 'auto'],
+                range: getDateRange(getMonthCount()),
+                itemStyle: {
+                    color: isDarkMode ? '#333' : '#fff',
+                    borderWidth: 0.5,
+                    borderColor: isDarkMode ? '#555' : '#eee',
+                },
+                yearLabel: { 
+                    show: false,
+                },
+                dayLabel: {
+                    align: 'center',
+                    nameMap: 'ZH',
+                },
+                monthLabel: {
+                    nameMap: 'EN',
+                },
+                splitLine: {
+                    show: false,
+                },
+            },
+            tooltip: {
+                hideDelay: 1000,
+                enterable: true,
+                formatter: function(params) {
+                    const date = params.data[0];
+                    const posts = postsByDate.get(date).get("posts");
+                    var content = `${date}`;
+                    for (const [i, post] of posts.entries()) {
+                        content += "<br>";
+                        var link = post.get("link");
+                        var title = post.get("title");
+                        content += `<a href="${link}" target="_blank">${title}</a>`;
+                    }
+                    return content;
+                }
+            },
+            series: {
+                type: 'heatmap',
+                coordinateSystem: 'calendar',
+                data: heatmapData
             }
-            return content;
-        }
-
-    },
-    series: {
-        type: 'heatmap',
-        coordinateSystem: 'calendar',
-        data: heatmapData
+        };
     }
-};
-option && myChart.setOption(option);
+
+    // 检测当前颜色模式
+    const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    option = getHeatmapOptions(isDarkMode);
+    myChart.setOption(option);
+
+    // 监听颜色模式变化
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
+        option = getHeatmapOptions(event.matches);
+        myChart.setOption(option);
+    });
 </script>
