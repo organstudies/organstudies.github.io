@@ -71,9 +71,5 @@ aber diesmal werde ich geschrieben werden. ich bin der eindruck, der sich verwan
 {{< /card >}}
 
 
-{{$scratch := newScratch}}
-{{ range (where .Site.Pages "Kind" "page" )}}
-    {{$scratch.Add "total" .WordCount}}
-{{ end }}
 
 
