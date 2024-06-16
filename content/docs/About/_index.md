@@ -47,6 +47,28 @@ title: "About"
 
 你来到了友情链接的荒漠。
 
+<br>
 
+
+*请和我交朋友吧^^* 右下角的*Chat With 小步*组件和邮箱都可以联系到我。
+<br>
+
+
+通过这张卡片的信息添加本博客为友链：
+{{<card>}}
+title：Organ Studies
+<br>
+
+
+website：https://organstudies.github.io/
+<br>
+
+
+avatar: https://github.com/organstudies/organstudies.github.io/blob/main/static/favicon.png?raw=true
+<br>
+
+
+description：schizophrenic out for a stroll
+{{</card>}}
 
 
