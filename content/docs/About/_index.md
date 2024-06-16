@@ -49,9 +49,13 @@ title: "About"
 
 <br>
 
-
-*请和我交朋友吧^^* 右下角的*Chat With 小步*组件和邮箱都可以联系到我。
 <br>
+
+
+{{< shake effect="shake-constant" >}}*请和我交朋友吧^^* 右下角的*Chat With 小步*组件和邮箱都可以联系到我。{{< /shake >}}
+<br>
+<br>
+
 
 
 通过这张卡片的信息添加本博客为友链：
