@@ -2,7 +2,7 @@
 title = "Why 小步 Built This House"
 date = "2024-06-17T16:59:44+09:00"
 draft = false
-tags = ["Hugo", "Sidewalk＂]
+tags = ["Hugo", "Sidewalk"]
 categories = ["Cyber Superstition", "Soul Kitchen"]
 
 +++
