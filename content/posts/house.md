@@ -109,5 +109,7 @@ hugo server --minify --theme hugo-book
 恭喜你得到了自己的博客。
 
 
-顺便感谢一下chatgpt的标题修改意见⬇️
+*顺便感谢一下chatgpt的标题修改意见⬇️*
+
+
 ![示例图片](/images/house.jpg)
