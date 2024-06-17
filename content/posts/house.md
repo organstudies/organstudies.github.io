@@ -71,7 +71,11 @@ categories = ["Cyber Superstition", "Soul Kitchen"]
 
 
 苹果电脑，全程使用Hugo(Theme Book)+Github Pages
+
+
 {{ < card> }}
+
+
 hugo new site blog
 
 
@@ -87,6 +91,7 @@ git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
 hugo server --minify --theme hugo-book
 
 {{ < /card > }}
+
 <br>
 
 
