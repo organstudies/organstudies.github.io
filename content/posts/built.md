@@ -30,7 +30,8 @@ categories = ["Cyber Superstition"]
 
 因为我的博客外观随着浏览器系统外观变化，所以给热力图写了一个dark模式，用了我个人比较喜欢的颜色。
 
-{{< details "Heatmap" [open] >}}
+{{< details "Heatmap" >}}
+
 
 ''' tql
 
