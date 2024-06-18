@@ -33,7 +33,7 @@ categories = ["Cyber Superstition"]
 {{< details "Heatmap" >}}
 
 
-''' tql
+''' 
 
 <div 
     id="heatmap" 
