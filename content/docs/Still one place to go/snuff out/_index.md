@@ -9,8 +9,6 @@ weight: 20
 
 ## 見世物小屋
 
-```tpl
-{{</* section [summary] */>}}
-```
+
 
 {{<section summary >}}
