@@ -74,8 +74,6 @@ categories = ["Cyber Superstition", "Soul Kitchen"]
 
 
 ```tpl
-
-
 hugo new site blog
 
 
