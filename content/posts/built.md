@@ -10,7 +10,7 @@ categories = ["Cyber Superstition"]
 
 # 时间轴
 {{< timeline date="2024.6.10" title="建站" description="使用Book主题建立博客雏形" tags="内装工事"  >}}
-{{< timeline date="2024.6.10" title="建站" description="使用Book主题建立博客雏形" tags="内装工事"  >}}
+{{< timeline date="2024.6.16" title="热力图" description="在About页面添加了热力图" tags="内装工事"  >}}
 
 
 # 使用的短代码
