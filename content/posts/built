@@ -1,13 +1,15 @@
 +++
 title = " 随时更新的装修记"
 date = "2024-06-18T17:17:44+09:00"
-draft = true
+draft = false
 tags = ["Hugo"]
 categories = ["Cyber Superstition"]
 
 +++
 
 # 时间轴
+{{< timeline date="2024.6.10" title="建站" description="使用Book主题建立博客雏形" tags="内装工事"  >}}
+
 
 # 使用的短代码
 
