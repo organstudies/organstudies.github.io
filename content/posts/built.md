@@ -10,6 +10,7 @@ categories = ["Cyber Superstition"]
 
 # 时间轴
 {{< timeline date="2024.6.10" title="建站" description="使用Book主题建立博客雏形" tags="内装工事"  >}}
+{{< timeline date="2024.6.13" title="Channel Talk" description="在右下角添加了聊天小组件" tags="内装工事"  >}}
 {{< timeline date="2024.6.16" title="热力图" description="在About页面添加了热力图" tags="内装工事"  >}}
 
 
