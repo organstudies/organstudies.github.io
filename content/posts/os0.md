@@ -9,8 +9,8 @@ categories = ["Soul Kitchen"]
 +++
 
 
-
-{{< align center "Wanna disco? Wanna see me disco?<br>
+{< quote-center >}
+Wanna disco? Wanna see me disco?<br>
 
 Let me hear you depoliticize my rhyme<br>
 
@@ -18,7 +18,10 @@ Yr so policy free and yr fantasy wheels<br>
 
 And everything you think and everything you feel<br>
 
-Is alright, alright, alright, alright, alright" >}}
+Is alright, alright, alright, alright, alright
+{< /quote-center >}
+
+
 
 
 这应该会是一篇草稿，关于我一直想写的毛泽东梦女和泽连斯基受腐唯，关于普京的cp粉，关于黑塔利亚，关于厅局风的性唤起机制，关于SM，关于怪力乱神的gay bar，关于色情身份政治（gender terrorist・カンノウショウセツカ・リン棒・사마리아・ligne de fuite），关于淮上的公务员主角，关于色情制品网络管制，关于习大大与彭妈妈的乱伦主语，关于“情欲作为我身体最后的街垒”。我不知道能把这个课题做到什么地步，不知道会为它做多少文献综述，不知道多久之后才会写第一章内容或者给它添加一个大纲或目录。总之如果有一天它变得成篇章、成体系，那它的初始点与导火索就在这里。我的时间线起源于这里，我的目光从此开始向政治化的爱欲，或云爱欲了的政治。我们能看到一个虚幻的东西如何与另一个虚幻的东西交媾然后受肉诞生的。我要写我的观察史，我的记忆，我的性癖，我的音乐品味，我的同性恋主张史，我的阴茎崇拜史，我的爹堕史，我的色情制品消费史，我审慎的对于被侵犯可能的放任态度。我的自由市场身体如何信马由缰，以及我如何将手指伸进我的女权主义伤口然后抠下一块碎肉。
