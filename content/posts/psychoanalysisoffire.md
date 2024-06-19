@@ -1,7 +1,7 @@
 +++
 
 title = "火的精神分析Test"
-date = "2024-06-19T13:44+09:00"
+date = "2024-09-19T13:57:22+09:00"
 draft = false
 tags = ["Hugo"]
 categories = ["Fed&Frightened","Moving Pictures"]
