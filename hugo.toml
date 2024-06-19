@@ -4,7 +4,7 @@ languageCode = 'en-us'
 title = 'Organ Studies'
 disqusShortname = "OS"
 enableGitInfo = true
-enableimgloop: true
+
 
 [params]
 BookTheme = 'auto'
@@ -16,9 +16,11 @@ BookCommitPath = 'commit'
 BookDateFormat = 'Jan 2, 2006'
 BookSearch = true
 BookComments = false
+enableimgloop = true
 comments = true
   walineServerURL = "https://walinecomment-seven.vercel.app/"
   weight = 100
+
 
 [outputs]
   home = ["HTML", "RSS"]
