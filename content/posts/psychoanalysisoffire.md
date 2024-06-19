@@ -9,3 +9,5 @@ categories = ["Fed&Frightened","Moving Pictures"]
 +++
 
 {{< imgloop "fire1.jpg,fire2.jpg,fire3.jpg,fire4.jpg,fire5.jpg,fire6.jpg" >}}
+
+From *Nostalgia*
