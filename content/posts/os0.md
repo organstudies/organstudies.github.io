@@ -9,7 +9,7 @@ categories = ["Soul Kitchen"]
 +++
 
 
-{< quote-center >}
+{{< quote-center >}}
 Wanna disco? Wanna see me disco?<br>
 
 Let me hear you depoliticize my rhyme<br>
@@ -19,7 +19,7 @@ Yr so policy free and yr fantasy wheels<br>
 And everything you think and everything you feel<br>
 
 Is alright, alright, alright, alright, alright
-{< /quote-center >}
+{{< /quote-center >}}
 
 
 
