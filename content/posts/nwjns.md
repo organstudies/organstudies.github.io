@@ -3,7 +3,7 @@
 title = "从NWJNS女孩们的位置说起"
 date = "2024-06-19T13:04:22+09:00"
 draft = false
-tags = ["musique""sidewalk"]
+tags = ["musique","sidewalk"]
 categories = ["Soul Kitchen"]
 
 +++
