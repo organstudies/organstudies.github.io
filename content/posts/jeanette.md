@@ -3,7 +3,7 @@
 title = "不敢问东浩纪的，就问问Jeanette Winterson吧！"
 date = "2023-08-17T20:37:44+09:00"
 draft = false
-tags = ["Sidewalk"]
+tags = ["Book"]
 categories = ["Soul Kitchen"]
 
 +++
