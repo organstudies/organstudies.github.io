@@ -1,0 +1,30 @@
++++
+
+title = "他们不像我那样听你唱"
+date = "2024-12-11T21:24:44+09:00"
+draft = false
+tags = ["Musique"]
+categories = ["Soul Kitchen"]
+
++++
+
+手上有一枚Liquid Room兑换啤酒的吧唧，之前生病了没换酒喝，想要之后补上，结果就一直留到了年末。如果这篇我回看得多，也许会记得要把它藏在一个地方，下次总要用上。
+
+今晚循环的是yeah yeah yeahs的Heads Will Roll，底下一条3.9万点赞的评论说：One minute of silence of the people who can't find this song。我想确实可以这么说。这条MV从对手-合成器的专注开始，镜头交棒Karen O，还未等屏幕的中心追赶上她的面庞，K就迫不及待地爆发出第一句台词。透明、塑料质感的肩部衣料让她看上去拥有了塑料大棚、苍蝇一样的翅膀，而这翅膀也确实随着她的胸腔鼓动了，几乎比K更加生动。之后是一个标准生产的冷酷鼓手，镜头环绕过他，于是我们得以从背后偷窥K，单手叉腰、模特一般动作着展示声响的K。这是一个稍显诡异的场景，底下的听众西装革履，更像是去什么bluenote之类的地方。K的眼线几乎让她的眼隐藏于厚重的刘海之下，后工业魅影开始最性感的演出。一个男人从隔壁穿过隧道，西装革履，舞步轻快，杂技演员一般上台。我喜欢这里的一个镜头拖曳（并没有这个名词），这镜头滑动得太快，几乎收不住脚步要带我们迈向那个隧道——当然，下一个镜头是戴面具的男人；K冷笑。他似乎搞不清楚状况，也许他以为自己才是舞台的主演？——开始跳舞；原来这面具男人是怪物。也许正是K召唤来的。最后的镜头是被肢解的K面无表情地歌唱。
+
+再一个今夜循环的是Maps，所有人看上去都很lame，连带着Karen O也露出半是厌恶半是迷茫、忧心忡忡的表情；其他成员看上去什么都不在乎。K开始轻微抖动，就像仓促间拼命抓着自己的神经元传递一些动作的指令。她确实贡献了浴室奥斯卡级别的表情表演，这样的神经质，这样的没有任何威胁，这样的美。她依旧将双腿作为身体三角的两道支撑，仿佛腰部以上可以立刻消失、粉碎，只留下发声装置的残余。观众是模糊的，或者说比乐队成员还nbcs，我们宁愿研究K眼球的转动也不想给这些存在着的影像撒下一丝一毫专注力。灯光颜色的变化让K的狂躁与脆弱暴露无——她在寻找谁？
+
+They don't love you like I love you.
+
+而她也确实更像Olivia Laing笔下的Klaus Nomi。
+
+如果她落泪，那是世界对她太不好。扯着话筒线，像是拿起一把巨剑，却最终停放在自己的胸口，直到这时才微微低头。
+
+They don't love you like I love you.
+
+
+
+评论补充之后知后觉：
+
+for them who don't know:
+Karen O's crying in the video was not staged. She explains: "They were real tears. My boyfriend at the time (Angus Andrew) was supposed to come to the shoot – he was three hours late and I was just about to leave for tour. I didn't think he was even going to come and this was the song that was written for him.
