@@ -13,7 +13,7 @@ categories = ["Cyber Superstition"]
 {{< timeline date="2024.6.13" title="Channel Talk" description="在右下角添加了聊天小组件" tags="内装工事"  >}}
 {{< timeline date="2024.6.16" title="热力图" description="在About页面添加了热力图" tags="内装工事"  >}}
 {{< timeline date="2024.6.19" title="图片轮播" description="在短代码加入图片轮播" tags="失败工事"  >}}
-{{< timeline date="2024.6.19" title="搬移博文" description="把大部分博文搬移成功" tags="美美入住"  >}}
+{{< timeline date="2024.6.20" title="搬移博文" description="把大部分博文搬移成功" tags="美美入住"  >}}
 
 
 # 使用的短代码
