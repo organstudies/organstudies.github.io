@@ -1,6 +1,6 @@
 +++
 
-title = "不敢问东浩纪的，就问问Jeanette Winterson吧！"
+title = "性别之不可约分"
 date = "2023-12-01T00:00:44+09:00"
 draft = false
 tags = ["Moving Pictures"]
