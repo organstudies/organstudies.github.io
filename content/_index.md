@@ -59,8 +59,7 @@ aber diesmal werde ich geschrieben werden. ich bin der eindruck, der sich verwan
 
 ## 在听
 
-{{< spotify type="track" id="27iddVHwK2vWujLKp2uyNB" height="80px">}} 
-
+{{< neodb "https://neodb.social/album/09F7000yECXSni6d7M4heh" >}}
 
 
 
