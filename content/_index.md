@@ -46,7 +46,7 @@ aber diesmal werde ich geschrieben werden. ich bin der eindruck, der sich verwan
 
 ## 在读
 
-{{< neodb "https://neodb.social/book/12WJAMMaszLVRoBZWCiAJH" >}}
+{{< neodb "https://neodb.social/book/7lgJBTRFtM9NkzkKFFyjjC" >}}
 
 
 
