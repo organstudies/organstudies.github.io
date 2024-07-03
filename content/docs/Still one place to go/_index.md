@@ -13,6 +13,9 @@ Dimitris Papaioannou-Ink | shing02 | Kazutoki Umezu | 流山児-田園に死す 
 
 {{< /card >}}
 
+
+<br>
+
 ## スゲージュル2023
 
 {{< card >}}
@@ -23,11 +26,12 @@ AOMG | Babymetal | Peepingtom-Moeder | 天井桟敷ー草迷宮 | ハンブル�
 {{< /card >}}
 
 
+<br>
+
 
 ## スゲージュル2022
 
 {{< card >}}
-
 
 
 Ogre You Asshole | Roth Bart Baron | May B | Love Psychedelico | Lillies and Remains | 戸川純 | Plastic Tree | 神聖かまってちゃん
