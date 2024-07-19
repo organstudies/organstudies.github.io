@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<div class="music">
+    <div id="player">
+    </div>
+</div>
+<script>
+    var ap = new APlayer
+        ({
+            element: document.getElementById('player'),
+            fixed: true,
+            autoplay: false,
+            fixed: true,
+            theme: '#8aa2d3',
+            loop: 'all',
+            order: 'list',
+            preload: 'auto',
+            volume: 0.7,
+            mutex: true,
+            listFolded: true,
+            listMaxHeight: 50,
+            lrcType: 0,
+            music:[
+            {
+            name:'故郷を遠く離れて',
+            url:'/aplayer/故郷を遠く離れて.mp3',
+            artist:'Tokyo Kid Brothers',
+            cover:'/aplayer/故郷を遠く離れて.jpeg'},
+            {
+            name:'人肉林からの楽しい逃走',
+            url:'/aplayer/人肉林からの楽しい逃走.mp3',
+            artist:'Kikuo',
+            cover:'/aplayer/人肉林からの楽しい逃走.png'},
+            {
+            name:'花',
+            url:'/aplayer/花.mp3',
+            artist:'Asa-Chang & Junray',
+            cover:'/aplayer/花.png'},
+            {
+            name:'White Awakening',
+            url:'/aplayer/White Awakening.mp3',
+            artist:'Les Rallizes Dénudés',
+            cover:'/aplayer/White Awakening.png'},
+            {
+            name:'Enter The Mirror',
+            url:'/aplayer/Enter The Mirror.mp3',
+            artist:'Les Rallizes Dénudés',
+            cover:'/aplayer/Enter The Mirror.png'},
+          
+            ]
+    });
+    //ap.init();
+</script>
+</body>
