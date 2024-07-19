@@ -1,7 +1,9 @@
 {{ define "dummy" }}{{ end }}
 
 
-{{ if and .Params.password (ne .Params.password "") }}
+
+{{ define "main" }}
+{{ if .Params.password }}
     <style>
         /* 蒙层样式 */
         .overlay {
@@ -16,7 +18,7 @@
             align-items: center;
             z-index: 9999; /* 确保蒙层位于最顶层 */
         }
-    
+
         /* 弹窗样式 */
         .custom-popup {
             width: 400px;
@@ -29,7 +31,7 @@
             font-family: ipx;
             color: #8aa2d3;
         }
-    
+
         .custom-popup input[type="password"] {
             width: 100%;
             padding: 10px;
@@ -37,7 +39,7 @@
             border: 1px solid #ccc;
             border-radius: 3px;
         }
-    
+
         .custom-popup button {
             background-color: #34495e;
             color: #fff;
@@ -49,9 +51,9 @@
         }
 
         .custom-popup button:hover {
-        background-color: #ecf0f9; /* 鼠标悬停时的背景颜色 */
-    }
-    
+            background-color: #ecf0f9; /* 鼠标悬停时的背景颜色 */
+        }
+
         /* 密码错误提示样式 */
         .error-message {
             color: red;
@@ -88,7 +90,7 @@
             margin-top: 10px;
         }
     </style>
-    
+
     <div class="overlay">
         <div class="custom-popup">
             <h2>これが尊敬していたとしたら、こんなにずけずけとものが言えないでしょう、そうじゃなくって？</h2>
@@ -100,22 +102,22 @@
             <div class="error-message" id="error-message"></div> <!-- 密码错误提示 -->
         </div>
     </div>
-    
+
     <script>
         var passwordInput = document.getElementById('password');
         var submitButton = document.getElementById('submit-button');
         var errorMessage = document.getElementById('error-message');
-    
+
         passwordInput.addEventListener('keyup', function(event) {
             if (event.key === 'Enter') {
                 submitButton.click(); // 模拟点击提交按钮
             }
         });
-    
+
         submitButton.addEventListener('click', function() {
             var inputPassword = passwordInput.value;
             var expectedPassword = '{{ .Params.password }}';
-    
+
             if (inputPassword === expectedPassword) {
                 // 密码正确，移除蒙层并显示内容
                 var overlay = document.querySelector('.overlay');
@@ -125,4 +127,8 @@
             }
         });
     </script>
-    {{ end }}    
+{{ else }}
+    <!-- 显示内容 -->
+    {{ .Content }}
+{{ end }}
+{{ end }}
