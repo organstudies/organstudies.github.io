@@ -1,0 +1,13 @@
+{{- if .IsNamedParams -}}
+<div class="frienddiv">
+  <a target="_blank" href={{ .Get "url" }} title={{ .Get "name" }} class="friendurl">
+    <div class="frienddivleft">
+      <img class="myfriend" src={{ .Get "logo" }} />
+    </div>
+    <div class="frienddivright">
+      <span class="friendname">{{- .Get "name" -}}</span>
+      <span class="friendinfo">{{- .Get "word" -}}</span>
+    </div>
+  </a>
+</div>
+{{- end }}
