@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sidewalk on Organ Studies</title>
+    <link>https://example.org/tags/sidewalk/</link>
+    <description>Recent content in Sidewalk on Organ Studies</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jun 2024 14:23:18 +0900</lastBuildDate>
+    <atom:link href="https://example.org/tags/sidewalk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从NWJNS女孩们的位置说起</title>
+      <link>https://example.org/posts/nwjns/</link>
+      <pubDate>Wed, 19 Jun 2024 13:04:22 +0900</pubDate>
+      <guid>https://example.org/posts/nwjns/</guid>
+      <description>在之前的博客陆陆续续写了三小篇关于newjeans的评论，现在整合一下放在这里，若有雷同，算你托梦。 Cool With You # 很喜欢newjeans五小妹在c</description>
+    </item>
+    <item>
+      <title>Why 小步 Built This House</title>
+      <link>https://example.org/posts/house/</link>
+      <pubDate>Mon, 17 Jun 2024 16:59:44 +0900</pubDate>
+      <guid>https://example.org/posts/house/</guid>
+      <description>此房为何造 # 第一次写博客是在2022年6月18日，标题为『2022年中书影总结』，内容为开篇废话+复制粘贴自己的豆瓣短评。从那时起我就发现，</description>
+    </item>
+    <item>
+      <title>利维坦的初恋乐园：绪论的雏形</title>
+      <link>https://example.org/posts/os0/</link>
+      <pubDate>Tue, 19 Sep 2023 23:47:22 +0900</pubDate>
+      <guid>https://example.org/posts/os0/</guid>
+      <description>Wanna disco? Wanna see me disco? Let me hear you depoliticize my rhyme Yr so policy free and yr fantasy wheels And everything you think and everything you feel Is alright, alright, alright, alright, alright 这应该会是一篇草稿，关于我一直想写的毛泽东梦女和泽连斯基受腐唯，关于普</description>
+    </item>
+    <item>
+      <title>21年沉迷过的kidneygate</title>
+      <link>https://example.org/posts/kidneygate/</link>
+      <pubDate>Sat, 10 Dec 2022 00:29:44 +0900</pubDate>
+      <guid>https://example.org/posts/kidneygate/</guid>
+      <description>浅浅评一下：虽然沉迷了一下午的kidneygate但还是很难理解这能引来这么多讨论which不一定做了fact check，可能米娜桑都bel</description>
+    </item>
+  </channel>
+</rss>

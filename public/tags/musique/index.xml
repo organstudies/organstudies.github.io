@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Musique on Organ Studies</title>
+    <link>https://example.org/tags/musique/</link>
+    <description>Recent content in Musique on Organ Studies</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jul 2024 22:59:16 +0900</lastBuildDate>
+    <atom:link href="https://example.org/tags/musique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ミミフィード2</title>
+      <link>https://example.org/posts/music2/</link>
+      <pubDate>Sat, 06 Jul 2024 22:48:17 +0900</pubDate>
+      <guid>https://example.org/posts/music2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>从NWJNS女孩们的位置说起</title>
+      <link>https://example.org/posts/nwjns/</link>
+      <pubDate>Wed, 19 Jun 2024 13:04:22 +0900</pubDate>
+      <guid>https://example.org/posts/nwjns/</guid>
+      <description>在之前的博客陆陆续续写了三小篇关于newjeans的评论，现在整合一下放在这里，若有雷同，算你托梦。 Cool With You # 很喜欢newjeans五小妹在c</description>
+    </item>
+    <item>
+      <title>ミミフィード1</title>
+      <link>https://example.org/posts/music1/</link>
+      <pubDate>Sun, 09 Jun 2024 23:48:17 +0900</pubDate>
+      <guid>https://example.org/posts/music1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>浅尝一口Hilary Hahn</title>
+      <link>https://example.org/posts/hilaryhahn/</link>
+      <pubDate>Tue, 06 Jun 2023 16:35:22 +0900</pubDate>
+      <guid>https://example.org/posts/hilaryhahn/</guid>
+      <description>Hilary Hahn的琴应该挺特别的，外行人也能听出的甜美顺滑，像一大块三文鱼，但h的处理恰好中和了这种独特，既凸显了琴的音色，又让自己天真式的大道至</description>
+    </item>
+  </channel>
+</rss>

@@ -2,17 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Organ Studies</title>
-    <link>http://localhost:1313/docs/still-one-place-to-go/</link>
+    <link>https://example.org/docs/still-one-place-to-go/</link>
     <description>Recent content on Organ Studies</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/docs/still-one-place-to-go/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Vol.1</title>
-      <link>http://localhost:1313/docs/still-one-place-to-go/vol.1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/still-one-place-to-go/vol.1/</guid>
-      <description> 2024/6/1记 # スゲージュル # 灰野敬二 | Delphine Dora | 友川カズキ | 灰野敬二&amp;amp;Delphine Dora | 水晶の舟 | Kafka&amp;rsquo;s Ibiki | XG&#xA;灰野敬二 # </description>
-    </item>
+    <atom:link href="https://example.org/docs/still-one-place-to-go/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

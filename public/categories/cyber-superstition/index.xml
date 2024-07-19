@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyber Superstition on Organ Studies</title>
+    <link>https://example.org/categories/cyber-superstition/</link>
+    <description>Recent content in Cyber Superstition on Organ Studies</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jul 2024 23:03:47 +0900</lastBuildDate>
+    <atom:link href="https://example.org/categories/cyber-superstition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>随时更新的装修记</title>
+      <link>https://example.org/posts/built/</link>
+      <pubDate>Tue, 18 Jun 2024 17:17:44 +0900</pubDate>
+      <guid>https://example.org/posts/built/</guid>
+      <description>时间轴 # 2024.6.10 内装工事 建站 使用Book主题建立博客雏形 2024.6.13 内装工事 Channel Talk 在右下角添加了聊天小组件 2024.6.16 内装工事 热力图 在About页面添加了热力图 2024.6.19 失败工</description>
+    </item>
+    <item>
+      <title>Why 小步 Built This House</title>
+      <link>https://example.org/posts/house/</link>
+      <pubDate>Mon, 17 Jun 2024 16:59:44 +0900</pubDate>
+      <guid>https://example.org/posts/house/</guid>
+      <description>此房为何造 # 第一次写博客是在2022年6月18日，标题为『2022年中书影总结』，内容为开篇废话+复制粘贴自己的豆瓣短评。从那时起我就发现，</description>
+    </item>
+  </channel>
+</rss>
