@@ -200,3 +200,96 @@ $splitNumber: 4; // 可以改变要分几个区
     }
 }
 
+.friendurl {
+    text-decoration: none !important;
+    color: #3f4551 !important;
+    box-shadow: none !important;
+}
+
+body[data-theme = "dark" ] .friendurl {
+    text-decoration: none !important;
+    color: silver !important;
+    box-shadow: none !important;
+}
+
+
+.myfriend {
+    width: 56px !important;
+    height: 56px !important;
+    border-radius: 50%!important;
+    padding: 2px!important;
+    margin-top: 20px !important;
+    margin-left: 14px !important;
+    background-color: #fff !important;
+}
+
+.frienddiv {
+    overflow: auto !important;
+    height: 110px !important;
+    width: 49% !important;
+    display: inline-block !important;
+    border-radius: 10px !important;
+    background: var(--color-codebg) !important;
+    box-shadow: 0 6px 10px 0 #00000033;
+}
+
+body[data-theme = "dark" ] .frienddiv:hover {
+    background: #272727 !important;
+}
+
+.frienddiv:hover {
+    background: #f0f8ff !important;
+}
+
+.frienddivleft {
+    width: 92px !important;
+    float: left !important;
+    margin-right: -5px !important;
+}
+
+.frienddivright {
+    margin-top: 18px !important;
+    margin-right: 18px !important;
+}
+
+.friendname {
+    text-overflow: ellipsis !important;
+    font-size: 110% !important;
+    margin-bottom: 5px !important;
+    color: var(--primary) !important;
+}
+
+.friendinfo::before {
+    content: "";
+    display: block;
+    height: 5px; /* 调整空行的高度 */
+}
+
+.friendinfo {
+    text-overflow: ellipsis !important;
+    font-size: 80% !important;
+    color: var(--primary) !important;
+    line-height: 0!important;
+}
+
+
+@media screen and (max-width: 600px) {
+    .friendinfo {
+        display: none;
+    }
+    .frienddivleft {
+        width: 74px!important;
+        margin: auto!important;
+    }
+    .frienddivright {
+        height: 100%!important;
+        margin: auto!important;
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+    }
+    .friendname {
+        font-size: 16px!important;
+    }
+}
+
