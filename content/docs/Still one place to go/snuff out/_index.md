@@ -1,14 +1,8 @@
+
 ---
-bookCollapseSection: true
-weight: 20
+menu:
+  after:
+    name: blog
+    weight: 20
+title: Enter the mirror
 ---
-
-## 
-
-
-
-## 見世物小屋
-
-
-
-{{<section summary >}}
