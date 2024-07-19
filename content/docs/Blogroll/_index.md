@@ -1,6 +1,10 @@
 ---
-weight: 20
+weight: 2
+bookFlatSection: true
+title: "Blogroll"
 ---
+
+
 
 
 ## Let me introduce you to some friends of mine.
