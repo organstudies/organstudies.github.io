@@ -9,6 +9,14 @@
             {{- .Content -}}
         </article>
 
+
+    
+
+        <!-- 插入评论部分 -->
+        {{ partial "docs/comments" . }}
+    {{ end }}
+{{ end }}
+
 {{ if .Params.password }}
         <style>
             /* 确保全局样式不会影响弹窗 */
@@ -146,12 +154,6 @@
                 });
             });
         </script>
-    {{ else }}
-
-        <!-- 插入评论部分 -->
-        {{ partial "docs/comments" . }}
-    {{ end }}
-{{ end }}
 
 {{ define "toc" }}
     {{ partial "docs/toc" . }}
