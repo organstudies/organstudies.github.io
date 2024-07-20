@@ -1,6 +1,5 @@
 {{ define "main" }}
 
-
     <!-- 显示内容 -->
     <article class="markdown book-post">
         <h1>
@@ -13,10 +12,11 @@
     <!-- 插入评论部分 -->
     {{ partial "docs/comments" . }}
 
-   
+{{ end }}
 
 {{ define "toc" }}
     {{ partial "docs/toc" . }}
 {{ end }}
 
 {{ define "dummy" }}{{ end }}
+

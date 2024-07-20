@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zeros&#43;Ones on Organ Studies</title>
-    <link>https://example.org/tags/zeros&#43;ones/</link>
+    <link>http://localhost:1313/tags/zeros&#43;ones/</link>
     <description>Recent content in Zeros&#43;Ones on Organ Studies</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Jun 2024 15:01:15 +0900</lastBuildDate>
-    <atom:link href="https://example.org/tags/zeros+ones/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/zeros+ones/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>试译：『Zeros&#43;Ones』by Sadie Plant 绪论</title>
-      <link>https://example.org/posts/zerosonestranslate/</link>
+      <link>http://localhost:1313/posts/zerosonestranslate/</link>
       <pubDate>Tue, 27 Feb 2024 21:24:44 +0900</pubDate>
-      <guid>https://example.org/posts/zerosonestranslate/</guid>
+      <guid>http://localhost:1313/posts/zerosonestranslate/</guid>
       <description>那些所有人都在海中的日子，对我来说就像昨天一样。种族，性别，人种，阶级：在那些日子里，没有任何意义。没有父母，没有孩子，只是彼此，一串串亲密</description>
     </item>
   </channel>

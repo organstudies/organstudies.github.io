@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Organstudies on Organ Studies</title>
-    <link>https://example.org/tags/organstudies/</link>
+    <link>http://localhost:1313/tags/organstudies/</link>
     <description>Recent content in Organstudies on Organ Studies</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 19 Jun 2024 14:23:18 +0900</lastBuildDate>
-    <atom:link href="https://example.org/tags/organstudies/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/organstudies/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>利维坦的初恋乐园：绪论的雏形</title>
-      <link>https://example.org/posts/os0/</link>
+      <link>http://localhost:1313/posts/os0/</link>
       <pubDate>Tue, 19 Sep 2023 23:47:22 +0900</pubDate>
-      <guid>https://example.org/posts/os0/</guid>
+      <guid>http://localhost:1313/posts/os0/</guid>
       <description>Wanna disco? Wanna see me disco? Let me hear you depoliticize my rhyme Yr so policy free and yr fantasy wheels And everything you think and everything you feel Is alright, alright, alright, alright, alright 这应该会是一篇草稿，关于我一直想写的毛泽东梦女和泽连斯基受腐唯，关于普</description>
     </item>
   </channel>

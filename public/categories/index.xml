@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Organ Studies</title>
-    <link>https://example.org/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Organ Studies</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Jul 2024 22:59:16 +0900</lastBuildDate>
-    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fed&amp;Frightened</title>
-      <link>https://example.org/categories/fedfrightened/</link>
+      <link>http://localhost:1313/categories/fedfrightened/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/fedfrightened/</guid>
+      <guid>http://localhost:1313/categories/fedfrightened/</guid>
       <description></description>
     </item>
     <item>
       <title>Soul Kitchen</title>
-      <link>https://example.org/categories/soul-kitchen/</link>
+      <link>http://localhost:1313/categories/soul-kitchen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/soul-kitchen/</guid>
+      <guid>http://localhost:1313/categories/soul-kitchen/</guid>
       <description></description>
     </item>
     <item>
       <title>Cyber Superstition</title>
-      <link>https://example.org/categories/cyber-superstition/</link>
+      <link>http://localhost:1313/categories/cyber-superstition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/cyber-superstition/</guid>
+      <guid>http://localhost:1313/categories/cyber-superstition/</guid>
       <description></description>
     </item>
     <item>
       <title>Que Sçay-Je?</title>
-      <link>https://example.org/categories/que-s%C3%A7ay-je/</link>
+      <link>http://localhost:1313/categories/que-s%C3%A7ay-je/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/que-s%C3%A7ay-je/</guid>
+      <guid>http://localhost:1313/categories/que-s%C3%A7ay-je/</guid>
       <description></description>
     </item>
     <item>
       <title>Glossolalia</title>
-      <link>https://example.org/categories/glossolalia/</link>
+      <link>http://localhost:1313/categories/glossolalia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/categories/glossolalia/</guid>
+      <guid>http://localhost:1313/categories/glossolalia/</guid>
       <description></description>
     </item>
   </channel>

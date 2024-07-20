@@ -2,17 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Organ Studies</title>
-    <link>https://example.org/docs/</link>
+    <link>http://localhost:1313/docs/</link>
     <description>Recent content in Docs on Organ Studies</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/docs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>https://example.org/docs/blogroll/blogroll/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/docs/blogroll/blogroll/</guid>
-      <description>Let me introduce you to some friends of mine. # 苹果乐园 鱼之家</description>
-    </item>
+    <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

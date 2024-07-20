@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Excerpt on Organ Studies</title>
-    <link>https://example.org/tags/excerpt/</link>
+    <link>http://localhost:1313/tags/excerpt/</link>
     <description>Recent content in Excerpt on Organ Studies</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Jun 2024 16:28:26 +0900</lastBuildDate>
-    <atom:link href="https://example.org/tags/excerpt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/excerpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>『Dark Deleuze』 Ctrl&#43;V</title>
-      <link>https://example.org/posts/darkdeleuze/</link>
+      <link>http://localhost:1313/posts/darkdeleuze/</link>
       <pubDate>Wed, 12 Jun 2024 14:17:44 +0900</pubDate>
-      <guid>https://example.org/posts/darkdeleuze/</guid>
+      <guid>http://localhost:1313/posts/darkdeleuze/</guid>
       <description>These everyday behaviors show that the seemingly modern world of commodities has not stolen our sense of wonder—we are as divinely moved by media as we once were by angels. Marx, who, in Artaud’s phrase, has “done away with the judgment of God,” shows that this mystical character of the commodity is capitalism and also its most popular trick. ……“Dark Deleuze’s immediate target is connectivity, the name given to the growing integration of people and things through digital technology.</description>
     </item>
   </channel>
