@@ -1,4 +1,16 @@
 {{ define "main" }}
+    <!-- 显示内容 -->
+    <article class="markdown book-post">
+        <h1>
+            <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
+        </h1>
+        {{ partial "docs/post-meta" . }}
+        {{- .Content -}}
+    </article>
+
+    <!-- 插入评论部分 -->
+    {{ partial "docs/comments" . }}
+
     {{ if .Params.password }}
         <style>
             /* 确保全局样式不会影响弹窗 */
@@ -133,18 +145,6 @@
                 });
             });
         </script>
-    {{ else }}
-        <!-- 显示内容 -->
-        <article class="markdown book-post">
-            <h1>
-                <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
-            </h1>
-            {{ partial "docs/post-meta" . }}
-            {{- .Content -}}
-        </article>
-
-        <!-- 插入评论部分 -->
-        {{ partial "docs/comments" . }}
     {{ end }}
 {{ end }}
 
