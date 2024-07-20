@@ -1,6 +1,14 @@
 {{ define "main" }}
     {{ if .Params.password }}
         <style>
+            /* 确保全局样式不会影响弹窗 */
+            html, body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                overflow: hidden; /* 确保没有滚动条 */
+            }
+
             /* 蒙层样式 */
             .overlay {
                 position: fixed;
@@ -17,6 +25,10 @@
 
             /* 弹窗样式 */
             .custom-popup {
+                position: absolute; /* 改为绝对定位 */
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%); /* 使其居中 */
                 width: 400px;
                 padding: 20px;
                 background-color: #e9f3fb;
