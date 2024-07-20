@@ -1,20 +1,5 @@
 {{ define "main" }}
-    
-        <!-- 显示内容 -->
-        <article class="markdown book-post">
-            <h1>
-                <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
-            </h1>
-            {{ partial "docs/post-meta" . }}
-            {{- .Content -}}
-        </article>
-
-        <!-- 插入评论部分 -->
-        {{ partial "docs/comments" . }}
-    {{ end }}
-{{ end }}
-
-{{ if .Params.password }}
+    {{ if .Params.password }}
         <style>
             /* 确保全局样式不会影响弹窗 */
             html, body {
@@ -40,10 +25,7 @@
 
             /* 弹窗样式 */
             .custom-popup {
-                position: absolute; /* 改为绝对定位 */
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%); /* 使其居中 */
+                position: relative; /* 使用相对定位 */
                 width: 400px;
                 padding: 20px;
                 background-color: #e9f3fb;
@@ -152,10 +134,22 @@
             });
         </script>
     {{ else }}
+        <!-- 显示内容 -->
+        <article class="markdown book-post">
+            <h1>
+                <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
+            </h1>
+            {{ partial "docs/post-meta" . }}
+            {{- .Content -}}
+        </article>
+
+        <!-- 插入评论部分 -->
+        {{ partial "docs/comments" . }}
+    {{ end }}
+{{ end }}
 
 {{ define "toc" }}
     {{ partial "docs/toc" . }}
 {{ end }}
 
 {{ define "dummy" }}{{ end }}
-
