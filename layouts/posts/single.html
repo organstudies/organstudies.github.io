@@ -9,13 +9,10 @@
             {{- .Content -}}
         </article>
 
-
-    
-
         <!-- 插入评论部分 -->
         {{ partial "docs/comments" . }}
     {{ end }}
-
+{{ end }}
 
 {{ if .Params.password }}
         <style>
@@ -154,9 +151,11 @@
                 });
             });
         </script>
+    {{ else }}
 
 {{ define "toc" }}
     {{ partial "docs/toc" . }}
 {{ end }}
 
 {{ define "dummy" }}{{ end }}
+
