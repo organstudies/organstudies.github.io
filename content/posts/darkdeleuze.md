@@ -2,7 +2,7 @@
 title = "『Dark Deleuze』 Ctrl+V"
 date = "2024-06-12T14:17:44+09:00"
 draft = false
-tags = ["excerpt"]
+tags = ["Excerpt", "Deleuze"]
 categories = ["Que sçay-je?"]
 
 +++
