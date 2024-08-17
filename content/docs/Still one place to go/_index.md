@@ -3,7 +3,7 @@ bookFlatSection: true
 weight: 2
 ---
 
-## スゲージュル2024
+## スゲージュル2025
 
 {{< card >}}
 
