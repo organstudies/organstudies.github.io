@@ -8,7 +8,7 @@ weight: 2
 {{< card >}}
 
 
-| CARL STONE / AYAMI SUZUKI | 嶺川貴子 (シンセサイザー、ほか) + 遠藤ふみ (ピアノ) | フィッシュマンズ | 中村達也✖︎林頼我〜“独走族MY WAY I’M FUCK’N DRUM SOLO メ〜ン” | 次の音を、どこに、傾かせようか？ ｜ Fishmans ｜ New Order ｜ 石橋英子 ｜ 頭士奈生樹 | 潮田雄一×川島誠 Duo | 
+| CARL STONE / AYAMI SUZUKI | 嶺川貴子 (シンセサイザー、ほか) + 遠藤ふみ (ピアノ) | 中村達也✖︎林頼我〜“独走族MY WAY I’M FUCK’N DRUM SOLO メ〜ン” | 次の音を、どこに、傾かせようか？ ｜ フィッシュマンズ | New Order ｜ 石橋英子 ｜ 頭士奈生樹 | 潮田雄一×川島誠 Duo | 
 
 
 {{< /card >}}
