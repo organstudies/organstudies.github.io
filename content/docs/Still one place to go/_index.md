@@ -8,7 +8,7 @@ weight: 2
 {{< card >}}
 
 
-| CARL STONE / AYAMI SUZUKI | フィッシュマンズ | 
+| CARL STONE / AYAMI SUZUKI | 嶺川貴子 (シンセサイザー、ほか) + 遠藤ふみ (ピアノ) | フィッシュマンズ | 中村達也✖︎林頼我〜“独走族MY WAY I’M FUCK’N DRUM SOLO メ〜ン” | 頭士奈生樹 | 潮田雄一×川島誠 Duo | 
 
 
 {{< /card >}}
@@ -37,7 +37,7 @@ weight: 2
 {{< card >}}
 
 
-AOMG | Babymetal | Peepingtom-Moeder | 天井桟敷ー草迷宮 | ハンブルク バレエ団-ノイマイヤーの世界 | Se So Neon | Blackpink | Phew | Thomas Zehetmair| Ride |坂本慎太郎 | Hilary Hahn | Apb-田園に死す | Speeder-X vs 勃殺戒洞-速さよ、祈りとなれ。開始する。 | ヒカシュー | 山海塾ーTOTEM 真空と高み | 灰野敬二 | 三上寛 | Mikhail Pletnev | ゆうらん船 | Acid Mother Temple | Andras Schiff | 大森靖子 | 白崎映美&東北6県ろ | alexandre kantorow | Carsick Cars | 坂本慎太郎 | Fishmans | Yoyo Ma | Yo La Tengo | Suede/Manic Street Preachers | 工工工
+| AOMG | Babymetal | Peepingtom-Moeder | 天井桟敷ー草迷宮 | ハンブルク バレエ団-ノイマイヤーの世界 | Se So Neon | Blackpink | Phew | Thomas Zehetmair| Ride |坂本慎太郎 | Hilary Hahn | Apb-田園に死す | Speeder-X vs 勃殺戒洞-速さよ、祈りとなれ。開始する。 | ヒカシュー | 山海塾ーTOTEM 真空と高み | 灰野敬二 | 三上寛 | Mikhail Pletnev | ゆうらん船 | Acid Mother Temple | Andras Schiff | 大森靖子 | 白崎映美&東北6県ろ | alexandre kantorow | Carsick Cars | 坂本慎太郎 | Fishmans | Yoyo Ma | Yo La Tengo | Suede/Manic Street Preachers | 工工工 |
 
 {{< /card >}}
 
@@ -50,7 +50,7 @@ AOMG | Babymetal | Peepingtom-Moeder | 天井桟敷ー草迷宮 | ハンブル�
 {{< card >}}
 
 
-Ogre You Asshole | Roth Bart Baron | May B | Love Psychedelico | Lillies and Remains | 戸川純 | Plastic Tree | 神聖かまってちゃん
+| Ogre You Asshole | Roth Bart Baron | May B | Love Psychedelico | Lillies and Remains | 戸川純 | Plastic Tree | 神聖かまってちゃん |
 
 
 
