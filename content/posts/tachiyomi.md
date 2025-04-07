@@ -1,6 +1,6 @@
 +++
 
-title = "夜明けの人生立ち読み"
+title = "夜明けの立ち読み"
 date = "2024-03-06T00:11:44+09:00"
 draft = false
 tags = ["Moving Pictures"]
