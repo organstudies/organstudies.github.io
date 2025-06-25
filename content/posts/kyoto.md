@@ -1,5 +1,5 @@
 +++
-title = "机就在眼前！"
+title = "良机就在眼前！"
 date = "2025-06-25T16:50:44+09:00"
 draft = false
 tags = ["Travel", "Japan"]
