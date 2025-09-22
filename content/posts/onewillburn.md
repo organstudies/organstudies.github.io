@@ -1,7 +1,7 @@
 +++
 
 title = "heart and soul, one will burn"
-date = "2025-09-23T05:47:22+09:00"
+date = "2025-09-22T15:47:22+09:00"
 draft = false
 tags = ["Musique"]
 categories = ["Soul Kitchen", "Fed&Frightened", "Lv4asec"]
