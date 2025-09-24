@@ -8,7 +8,7 @@ weight: 2
 {{< card >}}
 
 
-| CARL STONE / AYAMI SUZUKI | 嶺川貴子 (シンセサイザー、ほか) + 遠藤ふみ (ピアノ) | 次の音を、どこに、傾かせようか？ ｜ フィッシュマンズ ｜ 村山政二朗 (ドラムス)、ユタ・カワサキ (シンセサイザー) ｜ New Order ｜ 石橋英子 ｜ 頭士奈生樹 | MERZBOW × アキオジェイムス | 潮田雄一×川島誠 Duo | 《一部未完成的电影》剧场（吉祥寺）先行试映会 | 3776 ｜ 奴婢訓 | 謝明諺 INVITES THE JAPAN FREE JAZZ LEGENDS : 山崎比呂志、大友良英 ＆ 須川崇志 | HUUN HUUR TU Japan Tour 2025 | DJDJなパラレル・オペレッタ音楽宮殿劇VSわたし蜃気楼 ―月よりももっと遠い場所、そこはここかも知れない『まぼろしふたり夜会』| ZAZEN BOYS 地獄のTHE MATSURI SESSION | 林栄一(sax) 山崎比呂志(ds) DUO　| 纐纈之雅代Xのなか悟空 |　"Alone Together"纐纈雅代,山崎比呂志 | 水晶の舟 単独公演【UNDERGROUND SPIRIT 22 桃源郷】|【昼】『晴れたら空に豆まいて19周年記念』KIKI BANDKIKI BAND 25年の総集編 | Ka Baird Japan Tour 2025 w/  Tatsuhisa Yamamoto | 坂田明 (sax) 中村としまる (no-input mixing board) 瀬尾高志 (cb) | 石橋英子　Solo Concert/Presented by GROU | Eddie Prévost Day2: DUO & DUO | 「伍佰 Wu Bai & China Blue」 | 山海塾 『TOTEM　真空と高み』｜ RY🅰️NGLE | 中村達也 “PRIMITIVE” |
+| CARL STONE / AYAMI SUZUKI | 嶺川貴子 (シンセサイザー、ほか) + 遠藤ふみ (ピアノ) | 次の音を、どこに、傾かせようか？ ｜ フィッシュマンズ ｜ 村山政二朗 (ドラムス)、ユタ・カワサキ (シンセサイザー) ｜ New Order ｜ 石橋英子 ｜ 頭士奈生樹 | MERZBOW × アキオジェイムス | 潮田雄一×川島誠 Duo | 《一部未完成的电影》剧场（吉祥寺）先行试映会 | 3776 ｜ 奴婢訓 | 謝明諺 INVITES THE JAPAN FREE JAZZ LEGENDS : 山崎比呂志、大友良英 ＆ 須川崇志 | HUUN HUUR TU Japan Tour 2025 | DJDJなパラレル・オペレッタ音楽宮殿劇VSわたし蜃気楼 ―月よりももっと遠い場所、そこはここかも知れない『まぼろしふたり夜会』| ZAZEN BOYS 地獄のTHE MATSURI SESSION | 林栄一(sax) 山崎比呂志(ds) DUO　| 纐纈之雅代Xのなか悟空 |　"Alone Together"纐纈雅代,山崎比呂志 | 水晶の舟 単独公演【UNDERGROUND SPIRIT 22 桃源郷】|【昼】『晴れたら空に豆まいて19周年記念』KIKI BANDKIKI BAND 25年の総集編 | Ka Baird Japan Tour 2025 w/  Tatsuhisa Yamamoto | 坂田明 (sax) 中村としまる (no-input mixing board) 瀬尾高志 (cb) | 石橋英子　Solo Concert/Presented by GROU | Eddie Prévost Day2: DUO & DUO | 「伍佰 Wu Bai & China Blue」 | 山海塾 『TOTEM　真空と高み』｜ TRY🅰️NGLE | 中村達也 “PRIMITIVE” |
 
 
 {{< /card >}}
