@@ -1,54 +1,11 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
+<h1>Calendar Test</h1>
 
-{{ range $year, $days := .Params.calendar }}
-  <section class="year">
-    <h2>{{ $year }}</h2>
+<button data-test="2025-01-01">2025-01-01</button>
+<button data-test="2025-01-02">2025-01-02</button>
 
-    <div class="calendar-grid">
-      {{ range seq 1 12 }}
-        {{ $month := printf "%02d" . }}
-        <div class="month">
-          <h3>{{ $month }}</h3>
-
-          <div class="days">
-            {{ range seq 1 31 }}
-              {{ $day := printf "%02d" . }}
-              {{ $key := printf "%s-%s" $month $day }}
-
-              {{ with index $days $key }}
-                <button
-                  class="day has-entry"
-                  data-date="{{ $year }}-{{ $month }}-{{ $day }}"
-                >
-                  {{ $day }}
-                </button>
-              {{ else }}
-                <span class="day empty">{{ $day }}</span>
-              {{ end }}
-            {{ end }}
-          </div>
-        </div>
-      {{ end }}
-    </div>
-  </section>
-{{ end }}
-
-<!-- 隐藏的全文内容（用于 modal） -->
-<div id="calendar-content" hidden>
-  {{ .Content }}
-</div>
-
-<!-- modal -->
-<div id="calendar-modal" hidden>
-  <div class="modal-content">
-    <button id="modal-close">×</button>
-    <div id="modal-body"></div>
-  </div>
-</div>
-
-{{ $js := resources.Get "js/calendar.js" | resources.Minify }}
-  <script src="{{ $js.RelPermalink }}"></script>
+{{ $js := resources.Get "js/calendar-test.js" }}
+<script src="{{ $js.RelPermalink }}"></script>
 
 {{ end }}
