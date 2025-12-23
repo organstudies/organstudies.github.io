@@ -3,6 +3,25 @@ bookFlatSection: true
 weight: 2
 ---
 
+---
+title: "スゲージュル"
+layout: "calendar"
+calendar:
+  2025:
+    "3-02":
+      title: "頭士奈生樹"
+    "3-15":
+      title: "潮田雄一×川島誠 Duo"
+    "4-10":
+      title: "３７７６"
+    "5-18":
+      title: " "4-10":
+      title: "奴婢訓ーNuhikun"
+  
+    
+
+---
+
 ## スゲージュル2025
 
 {{< card >}}
