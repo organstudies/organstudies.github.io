@@ -1,0 +1,23 @@
+document.querySelectorAll('.day.has-entry').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const date = btn.dataset.date
+    const source = document.querySelector(
+      `#calendar-content h2[id="${date}"]`
+    )
+
+    if (!source) return
+
+    const content = source.parentElement.cloneNode(true)
+    const body = document.getElementById('modal-body')
+    body.innerHTML = ''
+    body.appendChild(content)
+
+    document.getElementById('calendar-modal').hidden = false
+    document.body.classList.add('modal-open')
+  })
+})
+
+document.getElementById('modal-close').onclick = () => {
+  document.getElementById('calendar-modal').hidden = true
+  document.body.classList.remove('modal-open')
+}
