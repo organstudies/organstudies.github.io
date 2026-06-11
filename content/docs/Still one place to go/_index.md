@@ -10,6 +10,21 @@ weight: 2
 
 ---
 
+
+## スゲージュル2026
+
+{{< card >}}
+
+
+| 羽野昌二 + 河端一 + 田畑満 ｜ HELL SCROLL x HEAVIER THAN JUPITER | 纐纈之雅代(sax) 嚼(sax) Levi Liauw(ds) | 渋さ知らズ オーケストラ | Sid Frank, Takako Minekawa: 嶺川貴子 | 写真家・志賀理江子氏講演会「写真表現と、私の体」 | Sainkho Namtchylak | FIRN #2 ｜ KVELVANE / ØSTVANG JAPAN 2026 | レイ・チェン 2つの「四季」 | 【舞台挨拶】黒の牛 | 水晶の舟（紅ぴらこ　影男　松枝秀生　志村浩二） ミック＆ニュー・リヴィング・デッド（Mick　Tomo　田畑満） | Acid Mothers Guru Guru Japan Tour 2026 | 新版 夢の肉弾三勇士 | 新版 夢の肉弾三勇士 | 赵子毅 (Zhao Ziyi) [from Beijing, China]、嶺川貴子、ju sei | 【山崎比呂志86th Birthday live】 広瀬淳二(sax) 森順治(reeds) 加藤崇之(g) 雨宮拓(p) 井野信義(b) 山崎比呂志(ds) | 遠藤ふみ,嶺川貴子,国沢琉 | 村山政二朗 (ドラムス、ヴォイス) + Victor Guaita (ヴィオラ) | 『黒いチューリップ』 新宿梁山泊　第８１回公演 | 纐纈之雅代(sax) SOLO | Extreme The Dojo Vol.36 | 鉛の兵隊 | Maher Shalal Hash Baz ｜ SUPER DOMMUNE 5/18月19:30-21:30 DOMMUNE Presents Alan Licht Japan Tour 2026 | 急に具合が悪くなる』舞台挨拶付きプレミア上映 上映前舞台挨拶　登壇（予定）：ヴィルジニー・エフィラ／岡本多緒／長塚京三／黒崎煌代／濱口竜介監督 | RESONANCE TRIO【Eric Thielemans, 瀬尾高志, 遠藤ふみ | Si Paton x 纐纈雅代 佐伯武昇 x tga 嚼 x 槌谷颯晃 虫歯 ｜ 坂本慎太郎 ｜ Rhys Butler, Toshimaru Nakamura: 中村としまる |「落穂の雨」川島誠(Asax)ルイス稲毛(Ebass)山岸直人(DsPercution) | | BACTERIA ONE MAN "MESSAGE" | Charlemagne Palestine / Jim O'Rourke & Eiko Ishibashi | Sachiko M  ”I’m here MIX” | ヴィンセント･オン ピアノ･リサイタル | 幻想謝肉祭劇 阿呆船◎理性の荒野に阿呆の帰還！クオ・ヴァディス・ドミネ！| 青森県のせむし男 |
+
+
+{{< /card >}}
+
+
+<br>
+
+
 ## スゲージュル2025
 
 {{< card >}}
